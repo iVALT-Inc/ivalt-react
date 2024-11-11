@@ -1,12 +1,8 @@
 # iVALT React - Biometric Authentication Package
 
-===========================================
-
 A flexible React hooks package for integrating iVALT biometric authentication into your React applications.
 
 ## INSTALLATION
-
----
 
 To install the package, run one of the following commands:
 
@@ -28,19 +24,19 @@ npm install intl-tel-input tailwindcss postcss autoprefixer
 
 ## PACKAGE STRUCTURE
 
-ivalt-react/
-├── src/
-│ ├── api/
-│ │ └── index.ts - Core API integration functions
-│ ├── config/
-│ │ └── index.ts - Configuration and setup management  
-│ ├── types/
-│ │ └── index.ts - TypeScript type definitions
-│ ├── hooks/
-│ │ └── useBiometricAuth.ts - Main authentication hook
-│ ├── components/
-│ │ └── BiometricAuthForm.tsx - Optional pre-built form component
-│ └── index.ts - Main package exports
+### `ivalt-react`
+
+- **📂 api**
+  - `index.ts`: ⚙️ Core API integration functions
+- **📂 config**
+  - `index.ts`: 🛠️ Configuration and setup management
+- **📂 types**
+  - `index.ts`: 📝 TypeScript type definitions
+- **📂 hooks**
+  - `useBiometricAuth.ts`: 🔐 Main authentication hook
+- **📂 components**
+  - `BiometricAuthForm.tsx`: 📝 Optional pre-built form component
+- `index.ts`: 🚀 Main package exports
 
 ## BASIC SETUP
 
@@ -159,10 +155,11 @@ function App() {
 ## ERROR HANDLING
 
 The hook handles various error scenarios:
-• Network errors
-• Authentication timeout (after maxAttempts)
-• Invalid phone numbers
-• Server errors
+
+- Network errors
+- Authentication timeout (after maxAttempts)
+- Invalid phone numbers
+- Server errors
 
 Errors are available through:
 
@@ -190,12 +187,14 @@ Common issues:
 For additional support:
 
 - Check documentation at docs.ivalt.com
-- Submit issues at https://github.com/ivalt/ivalt-react/issues
+- Submit issues at https://github.com/iVALT-Inc/ivalt-react/issues
 - Contact support at support@ivalt.com
+
+---
 
 ## LICENSE
 
 MIT License - See LICENSE file for details
 
-Version: 1.0.1
+Version: 1.0.4
 Last Updated: 2024-11-11
